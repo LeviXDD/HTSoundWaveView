@@ -30,10 +30,7 @@
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.29999999999999999" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="HBz-9M-4J7">
-                                <rect key="frame" x="95.5" y="336.5" width="154" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="qR5-tI-qhO"/>
-                                </constraints>
+                                <rect key="frame" x="95.5" y="336.5" width="261.5" height="31"/>
                                 <connections>
                                     <action selector="heightChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="RUW-QH-D5T"/>
                                 </connections>
@@ -51,7 +48,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="80" minValue="20" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="vUF-X6-Hir">
-                                <rect key="frame" x="95.5" y="383.5" width="154" height="31"/>
+                                <rect key="frame" x="95.5" y="383.5" width="261.5" height="31"/>
                                 <connections>
                                     <action selector="widthChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="CHQ-VE-2cN"/>
                                 </connections>
@@ -62,6 +59,7 @@
                             <constraint firstItem="5sh-rb-rcU" firstAttribute="leading" secondItem="nhT-WG-nfd" secondAttribute="leading" id="8ZK-zG-hEN"/>
                             <constraint firstItem="nhT-WG-nfd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Elp-z6-kc7"/>
                             <constraint firstItem="lcp-QP-O5i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="183" id="Fqg-Lw-krg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HBz-9M-4J7" secondAttribute="trailing" constant="20" id="Gwn-U6-06L"/>
                             <constraint firstItem="vUF-X6-Hir" firstAttribute="centerY" secondItem="5sh-rb-rcU" secondAttribute="centerY" id="TOD-rv-diH"/>
                             <constraint firstItem="nhT-WG-nfd" firstAttribute="top" secondItem="lcp-QP-O5i" secondAttribute="bottom" constant="100" id="YcC-al-plX"/>
                             <constraint firstItem="HBz-9M-4J7" firstAttribute="leading" secondItem="nhT-WG-nfd" secondAttribute="trailing" constant="30" id="Yd4-65-s3z"/>
