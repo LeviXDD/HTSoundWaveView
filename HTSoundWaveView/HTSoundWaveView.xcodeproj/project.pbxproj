@@ -15,7 +15,6 @@
 		30368FB020254DFF00BC6C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FAF20254DFF00BC6C97 /* main.m */; };
 		30368FBA20254DFF00BC6C97 /* HTSoundWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FB920254DFF00BC6C97 /* HTSoundWaveViewTests.m */; };
 		30368FC520254DFF00BC6C97 /* HTSoundWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FC420254DFF00BC6C97 /* HTSoundWaveViewUITests.m */; };
-		30368FD82026A1CD00BC6C97 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FD72026A1CD00BC6C97 /* WaveView.m */; };
 		3070C41C202BF8EA00CE2704 /* HTSoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3070C41A202BF8E900CE2704 /* HTSoundWaveView.m */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +52,6 @@
 		30368FC020254DFF00BC6C97 /* HTSoundWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTSoundWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30368FC420254DFF00BC6C97 /* HTSoundWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTSoundWaveViewUITests.m; sourceTree = "<group>"; };
 		30368FC620254DFF00BC6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30368FD62026A1CD00BC6C97 /* WaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
-		30368FD72026A1CD00BC6C97 /* WaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 		3070C41A202BF8E900CE2704 /* HTSoundWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSoundWaveView.m; sourceTree = "<group>"; };
 		3070C41B202BF8EA00CE2704 /* HTSoundWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSoundWaveView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,8 +115,6 @@
 				30368FAB20254DFF00BC6C97 /* LaunchScreen.storyboard */,
 				30368FAE20254DFF00BC6C97 /* Info.plist */,
 				30368FAF20254DFF00BC6C97 /* main.m */,
-				30368FD62026A1CD00BC6C97 /* WaveView.h */,
-				30368FD72026A1CD00BC6C97 /* WaveView.m */,
 			);
 			path = HTSoundWaveView;
 			sourceTree = "<group>";
@@ -279,7 +274,6 @@
 				30368FB020254DFF00BC6C97 /* main.m in Sources */,
 				30368FA220254DFF00BC6C97 /* AppDelegate.m in Sources */,
 				3070C41C202BF8EA00CE2704 /* HTSoundWaveView.m in Sources */,
-				30368FD82026A1CD00BC6C97 /* WaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
