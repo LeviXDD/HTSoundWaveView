@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30368FA220254DFF00BC6C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FA120254DFF00BC6C97 /* AppDelegate.m */; };
+		30368FA520254DFF00BC6C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FA420254DFF00BC6C97 /* ViewController.m */; };
+		30368FA820254DFF00BC6C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30368FA620254DFF00BC6C97 /* Main.storyboard */; };
+		30368FAA20254DFF00BC6C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30368FA920254DFF00BC6C97 /* Assets.xcassets */; };
+		30368FAD20254DFF00BC6C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30368FAB20254DFF00BC6C97 /* LaunchScreen.storyboard */; };
+		30368FB020254DFF00BC6C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FAF20254DFF00BC6C97 /* main.m */; };
+		30368FBA20254DFF00BC6C97 /* HTSoundWaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FB920254DFF00BC6C97 /* HTSoundWaveViewTests.m */; };
+		30368FC520254DFF00BC6C97 /* HTSoundWaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FC420254DFF00BC6C97 /* HTSoundWaveViewUITests.m */; };
+		30368FD82026A1CD00BC6C97 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30368FD72026A1CD00BC6C97 /* WaveView.m */; };
+		3070C41C202BF8EA00CE2704 /* HTSoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3070C41A202BF8E900CE2704 /* HTSoundWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30368FB620254DFF00BC6C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30368F9520254DFF00BC6C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30368F9C20254DFF00BC6C97;
+			remoteInfo = HTSoundWaveView;
+		};
+		30368FC120254DFF00BC6C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30368F9520254DFF00BC6C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30368F9C20254DFF00BC6C97;
+			remoteInfo = HTSoundWaveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30368F9D20254DFF00BC6C97 /* HTSoundWaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTSoundWaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30368FA020254DFF00BC6C97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30368FA120254DFF00BC6C97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30368FA320254DFF00BC6C97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30368FA420254DFF00BC6C97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30368FA720254DFF00BC6C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30368FA920254DFF00BC6C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30368FAC20254DFF00BC6C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30368FAE20254DFF00BC6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30368FAF20254DFF00BC6C97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30368FB520254DFF00BC6C97 /* HTSoundWaveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTSoundWaveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30368FB920254DFF00BC6C97 /* HTSoundWaveViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTSoundWaveViewTests.m; sourceTree = "<group>"; };
+		30368FBB20254DFF00BC6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30368FC020254DFF00BC6C97 /* HTSoundWaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTSoundWaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30368FC420254DFF00BC6C97 /* HTSoundWaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTSoundWaveViewUITests.m; sourceTree = "<group>"; };
+		30368FC620254DFF00BC6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30368FD62026A1CD00BC6C97 /* WaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		30368FD72026A1CD00BC6C97 /* WaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		3070C41A202BF8E900CE2704 /* HTSoundWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSoundWaveView.m; sourceTree = "<group>"; };
+		3070C41B202BF8EA00CE2704 /* HTSoundWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSoundWaveView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30368F9A20254DFF00BC6C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30368FB220254DFF00BC6C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30368FBD20254DFF00BC6C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30368F9420254DFF00BC6C97 = {
+			isa = PBXGroup;
+			children = (
+				30368F9F20254DFF00BC6C97 /* HTSoundWaveView */,
+				30368FB820254DFF00BC6C97 /* HTSoundWaveViewTests */,
+				30368FC320254DFF00BC6C97 /* HTSoundWaveViewUITests */,
+				30368F9E20254DFF00BC6C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30368F9E20254DFF00BC6C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30368F9D20254DFF00BC6C97 /* HTSoundWaveView.app */,
+				30368FB520254DFF00BC6C97 /* HTSoundWaveViewTests.xctest */,
+				30368FC020254DFF00BC6C97 /* HTSoundWaveViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30368F9F20254DFF00BC6C97 /* HTSoundWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				3070C41B202BF8EA00CE2704 /* HTSoundWaveView.h */,
+				3070C41A202BF8E900CE2704 /* HTSoundWaveView.m */,
+				30368FA020254DFF00BC6C97 /* AppDelegate.h */,
+				30368FA120254DFF00BC6C97 /* AppDelegate.m */,
+				30368FA320254DFF00BC6C97 /* ViewController.h */,
+				30368FA420254DFF00BC6C97 /* ViewController.m */,
+				30368FA620254DFF00BC6C97 /* Main.storyboard */,
+				30368FA920254DFF00BC6C97 /* Assets.xcassets */,
+				30368FAB20254DFF00BC6C97 /* LaunchScreen.storyboard */,
+				30368FAE20254DFF00BC6C97 /* Info.plist */,
+				30368FAF20254DFF00BC6C97 /* main.m */,
+				30368FD62026A1CD00BC6C97 /* WaveView.h */,
+				30368FD72026A1CD00BC6C97 /* WaveView.m */,
+			);
+			path = HTSoundWaveView;
+			sourceTree = "<group>";
+		};
+		30368FB820254DFF00BC6C97 /* HTSoundWaveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				30368FB920254DFF00BC6C97 /* HTSoundWaveViewTests.m */,
+				30368FBB20254DFF00BC6C97 /* Info.plist */,
+			);
+			path = HTSoundWaveViewTests;
+			sourceTree = "<group>";
+		};
+		30368FC320254DFF00BC6C97 /* HTSoundWaveViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30368FC420254DFF00BC6C97 /* HTSoundWaveViewUITests.m */,
+				30368FC620254DFF00BC6C97 /* Info.plist */,
+			);
+			path = HTSoundWaveViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30368F9C20254DFF00BC6C97 /* HTSoundWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30368FC920254DFF00BC6C97 /* Build configuration list for PBXNativeTarget "HTSoundWaveView" */;
+			buildPhases = (
+				30368F9920254DFF00BC6C97 /* Sources */,
+				30368F9A20254DFF00BC6C97 /* Frameworks */,
+				30368F9B20254DFF00BC6C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTSoundWaveView;
+			productName = HTSoundWaveView;
+			productReference = 30368F9D20254DFF00BC6C97 /* HTSoundWaveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30368FB420254DFF00BC6C97 /* HTSoundWaveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30368FCC20254DFF00BC6C97 /* Build configuration list for PBXNativeTarget "HTSoundWaveViewTests" */;
+			buildPhases = (
+				30368FB120254DFF00BC6C97 /* Sources */,
+				30368FB220254DFF00BC6C97 /* Frameworks */,
+				30368FB320254DFF00BC6C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30368FB720254DFF00BC6C97 /* PBXTargetDependency */,
+			);
+			name = HTSoundWaveViewTests;
+			productName = HTSoundWaveViewTests;
+			productReference = 30368FB520254DFF00BC6C97 /* HTSoundWaveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30368FBF20254DFF00BC6C97 /* HTSoundWaveViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30368FCF20254DFF00BC6C97 /* Build configuration list for PBXNativeTarget "HTSoundWaveViewUITests" */;
+			buildPhases = (
+				30368FBC20254DFF00BC6C97 /* Sources */,
+				30368FBD20254DFF00BC6C97 /* Frameworks */,
+				30368FBE20254DFF00BC6C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30368FC220254DFF00BC6C97 /* PBXTargetDependency */,
+			);
+			name = HTSoundWaveViewUITests;
+			productName = HTSoundWaveViewUITests;
+			productReference = 30368FC020254DFF00BC6C97 /* HTSoundWaveViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30368F9520254DFF00BC6C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "DongDong's Parents";
+				TargetAttributes = {
+					30368F9C20254DFF00BC6C97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					30368FB420254DFF00BC6C97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30368F9C20254DFF00BC6C97;
+					};
+					30368FBF20254DFF00BC6C97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30368F9C20254DFF00BC6C97;
+					};
+				};
+			};
+			buildConfigurationList = 30368F9820254DFF00BC6C97 /* Build configuration list for PBXProject "HTSoundWaveView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30368F9420254DFF00BC6C97;
+			productRefGroup = 30368F9E20254DFF00BC6C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30368F9C20254DFF00BC6C97 /* HTSoundWaveView */,
+				30368FB420254DFF00BC6C97 /* HTSoundWaveViewTests */,
+				30368FBF20254DFF00BC6C97 /* HTSoundWaveViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30368F9B20254DFF00BC6C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30368FAD20254DFF00BC6C97 /* LaunchScreen.storyboard in Resources */,
+				30368FAA20254DFF00BC6C97 /* Assets.xcassets in Resources */,
+				30368FA820254DFF00BC6C97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30368FB320254DFF00BC6C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30368FBE20254DFF00BC6C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30368F9920254DFF00BC6C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30368FA520254DFF00BC6C97 /* ViewController.m in Sources */,
+				30368FB020254DFF00BC6C97 /* main.m in Sources */,
+				30368FA220254DFF00BC6C97 /* AppDelegate.m in Sources */,
+				3070C41C202BF8EA00CE2704 /* HTSoundWaveView.m in Sources */,
+				30368FD82026A1CD00BC6C97 /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30368FB120254DFF00BC6C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30368FBA20254DFF00BC6C97 /* HTSoundWaveViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30368FBC20254DFF00BC6C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30368FC520254DFF00BC6C97 /* HTSoundWaveViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30368FB720254DFF00BC6C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30368F9C20254DFF00BC6C97 /* HTSoundWaveView */;
+			targetProxy = 30368FB620254DFF00BC6C97 /* PBXContainerItemProxy */;
+		};
+		30368FC220254DFF00BC6C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30368F9C20254DFF00BC6C97 /* HTSoundWaveView */;
+			targetProxy = 30368FC120254DFF00BC6C97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30368FA620254DFF00BC6C97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30368FA720254DFF00BC6C97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30368FAB20254DFF00BC6C97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30368FAC20254DFF00BC6C97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30368FC720254DFF00BC6C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30368FC820254DFF00BC6C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30368FCA20254DFF00BC6C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB6K86A7D4;
+				INFOPLIST_FILE = HTSoundWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitao.HTSoundWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30368FCB20254DFF00BC6C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB6K86A7D4;
+				INFOPLIST_FILE = HTSoundWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitao.HTSoundWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30368FCD20254DFF00BC6C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CW96H4F92;
+				INFOPLIST_FILE = HTSoundWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitao.HTSoundWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTSoundWaveView.app/HTSoundWaveView";
+			};
+			name = Debug;
+		};
+		30368FCE20254DFF00BC6C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CW96H4F92;
+				INFOPLIST_FILE = HTSoundWaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitao.HTSoundWaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTSoundWaveView.app/HTSoundWaveView";
+			};
+			name = Release;
+		};
+		30368FD020254DFF00BC6C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CW96H4F92;
+				INFOPLIST_FILE = HTSoundWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitao.HTSoundWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTSoundWaveView;
+			};
+			name = Debug;
+		};
+		30368FD120254DFF00BC6C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CW96H4F92;
+				INFOPLIST_FILE = HTSoundWaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitao.HTSoundWaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTSoundWaveView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30368F9820254DFF00BC6C97 /* Build configuration list for PBXProject "HTSoundWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30368FC720254DFF00BC6C97 /* Debug */,
+				30368FC820254DFF00BC6C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30368FC920254DFF00BC6C97 /* Build configuration list for PBXNativeTarget "HTSoundWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30368FCA20254DFF00BC6C97 /* Debug */,
+				30368FCB20254DFF00BC6C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30368FCC20254DFF00BC6C97 /* Build configuration list for PBXNativeTarget "HTSoundWaveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30368FCD20254DFF00BC6C97 /* Debug */,
+				30368FCE20254DFF00BC6C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30368FCF20254DFF00BC6C97 /* Build configuration list for PBXNativeTarget "HTSoundWaveViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30368FD020254DFF00BC6C97 /* Debug */,
+				30368FD120254DFF00BC6C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30368F9520254DFF00BC6C97 /* Project object */;
+}
