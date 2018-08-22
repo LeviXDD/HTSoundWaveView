@@ -18,18 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIView *ssView = [[UIView alloc] initWithFrame:CGRectMake(15, 80, CGRectGetWidth(self.view.frame)-30, 60)];
-    [self.view addSubview:ssView];
-    ssView.layer.masksToBounds = YES;
-    ssView.layer.cornerRadius = 6.;
-    ssView.layer.borderWidth = 0.5;
-    ssView.layer.borderColor = [UIColor blackColor].CGColor;
+//    UIView *ssView = [[UIView alloc] initWithFrame:CGRectMake(15, 80, CGRectGetWidth(self.view.frame)-30, 60)];
+//    [self.view addSubview:ssView];
+//    ssView.layer.masksToBounds = YES;
+//    ssView.layer.cornerRadius = 6.;
+//    ssView.layer.borderWidth = 0.5;
+//    ssView.layer.borderColor = [UIColor blackColor].CGColor;
     
-    self.waveBackView = [[HTSoundWaveView alloc] initWithFrame:ssView.bounds];
+    self.waveBackView = [[HTSoundWaveView alloc] initWithFrame:CGRectMake(15, 80, CGRectGetWidth(self.view.frame)-30, 60)];
     self.waveBackView.backgroundColor = [UIColor whiteColor];
     //    self.chartView.layer.masksToBounds = YES;
     //    chartView.center = self.view.center;
-    [ssView addSubview:self.waveBackView];
+    [self.view addSubview:self.waveBackView];
 }
 - (IBAction)heightChanged:(id)sender {
     UISlider *slider = (UISlider*)sender;
